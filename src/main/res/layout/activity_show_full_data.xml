@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#F7F7F7"
+    android:layout_height="match_parent"
+    tools:context=".ShowFullData">
+
+    <Button
+        android:layout_width="wrap_content"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:backgroundTint="@color/white"
+        android:text="Sorting: Terbaru"
+        android:textColor="@color/black"
+        android:id="@+id/sortbutton"
+        android:textSize="18sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_toRightOf="@id/sortbutton"
+        android:layout_marginTop="5sp"
+        android:id="@+id/export"
+        android:text="Export"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginLeft="10sp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:layout_below="@id/sortbutton"
+        android:layout_width="match_parent"
+        android:id="@+id/historii"
+        android:divider="@null"
+        android:dividerHeight="-10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

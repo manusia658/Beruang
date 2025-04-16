@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LeftFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Saran hari ini"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="15sp"
+        android:id="@+id/gotoeval"
+        android:visibility="gone"
+        android:outlineAmbientShadowColor="@color/hijauutama"
+        android:elevation="5sp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Dapatkan Evaluasi Bulan lalu!!!"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/robotobold"
+                android:layout_margin="20sp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="10sp"
+        android:visibility="visible"
+        android:elevation="2sp"
+        android:id="@+id/rootlayout"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_marginLeft="15sp"
+        android:background="@drawable/border_portofolio"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Hari ini, perhatikan pengeluaranmu dengan lebih bijak dan upayakan untuk mengatur anggaran agar tidak terlalu berlebihan. Hematlah dalam kebutuhan sehari-hari untuk keuangan yang lebih stabil."
+            android:id="@+id/saranharinitextview"
+            android:layout_margin="15sp"
+            android:autoSizeMaxTextSize="20sp"
+            android:maxLines="3"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/saranharinitextview"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Tampilkan"
+                android:id="@+id/expandtext"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotobold"
+                android:textSize="20sp"
+                android:layout_marginBottom="10sp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imgrotate"
+                android:layout_marginLeft="5sp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2sp"
+                android:src="@drawable/baseline_keyboard_double_arrow"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Berita"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/loading"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:visibility="visible"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

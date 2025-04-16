@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Terbaru"
+        android:title="Terbaru"/>
+    <item
+        android:id="@+id/Terlama"
+        android:title="Terlama"/>"
+    <item
+        android:id="@+id/Terbesar"
+        android:title="Pengeluaran terbesar"/>
+    <item
+        android:id="@+id/Terkecil"
+        android:title="Pengeluaran terkecil"/>
+</menu>

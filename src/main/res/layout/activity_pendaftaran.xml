@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F7F7"
+    tools:context=".pendaftaran">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Pendaftaran"
+        android:textColor="#1F1F1F"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Pengguna"
+        android:layout_marginLeft="15sp"
+        android:textColor="#1F1F1F"
+        android:fontFamily="@font/robotobold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="*Nama"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#07C158"
+        app:errorEnabled="true"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Masukkan nama anda"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Jenjang"
+        android:layout_marginTop="-5sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        app:boxStrokeColor="#07C158"
+        app:hintTextColor="@color/black">
+
+        <AutoCompleteTextView
+            android:id="@+id/jenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenjang"
+            android:inputType="none"
+            android:textColor="@color/black"
+            app:simpleItems="@array/jenjanglist" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Wilayah"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#07C158"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/wilayah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Wilayah"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Rencana Jangka Panjang"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#07C158"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Rencana"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Penghasilan"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        app:boxStrokeColor="#07C158"
+        app:hintTextColor="@color/black">
+
+        <AutoCompleteTextView
+            android:id="@+id/penghasilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Penghasilan"
+            android:inputType="none"
+            app:simpleItems="@array/penghasilanlist" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:text="tanda * menandakan wajib diisi"
+        android:textSize="12sp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="30sp"
+            app:srcCompat="@drawable/baseline_done_24" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

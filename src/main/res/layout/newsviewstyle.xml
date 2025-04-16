@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0.4sp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="5sp"
+            android:layout_toLeftOf="@+id/box"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Revolusi Belanja Online: Cari Produk, Review, hingga Berburu Diskon Kini Bergantung AI"
+            android:textColor="#1F1F1F"
+            android:textSize="15sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/box"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15sp"
+            android:elevation="2sp"
+            app:cardCornerRadius="12sp">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/box2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            app:cardBackgroundColor="#B9EB71"
+            app:cardCornerRadius="12sp">
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Radarlampung"
+                android:textColor="@color/md_theme_primary" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/box2"
+            android:text="2 hours ago"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="22sp"
+            android:layout_marginLeft="15sp"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

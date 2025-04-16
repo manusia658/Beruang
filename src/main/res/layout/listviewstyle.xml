@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0.1sp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="15sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginBottom="3sp"
+            android:layout_marginTop="15sp"
+            android:text="Jumlah"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="#1F1F1F"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:text="Judul"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="#7A7A7A"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_toLeftOf="@id/closebutton"
+            android:id="@+id/closebutton"
+            android:visibility="gone"
+            android:layout_marginRight="10sp"
+            android:src="@drawable/close"
+            android:layout_width="35sp"
+            android:layout_alignParentRight="true"
+            android:layout_height="35sp"/>
+        <ImageView
+            android:id="@+id/deletebutton"
+            android:src="@drawable/delete"
+            android:layout_width="35sp"
+            android:visibility="gone"
+            android:layout_marginRight="5sp"
+            android:layout_toLeftOf="@id/closebutton"
+            android:layout_height="35sp"/>
+        <ImageView
+            android:layout_toLeftOf="@id/deletebutton"
+            android:id="@+id/updatebutton"
+            android:visibility="gone"
+            android:layout_marginRight="5sp"
+            android:src="@drawable/edit"
+            android:layout_width="35sp"
+            android:layout_height="35sp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

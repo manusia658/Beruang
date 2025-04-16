@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Beruang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="jenjanglist">
+        <item>SMP/MTS</item>
+        <item>SMA/SMK</item>
+        <item>Mahasiswa</item>
+    </string-array>
+    <string-array name="penghasilanlist">
+        <item>Rp1.000.000 - Rp5.000.000</item>
+        <item>Rp5.000.000 - Rp10.000.000</item>
+        <item>Rp10.000.000 - Rp15.000.000</item>
+        <item>Diatas Rp15.000.000</item>
+    </string-array>
+    <string-array name="pemasukanlist">
+        <item>Gaji</item>
+        <item>Bonus</item>
+        <item>Pendapatan Sampingan</item>
+        <item>Investasi</item>
+        <item>Donasi</item>
+    </string-array>
+    <string-array name="pengeluaranlist">
+        <item>Makan</item>
+        <item>Bensin</item>
+        <item>Film</item>
+        <item>Listrik</item>
+        <item>Pakaian</item>
+        <item>Kosmetik</item>
+    </string-array>
+    <string-array name="sorttype">
+        <item>Terbaru</item>
+        <item>Terlama</item>
+        <item>Pengeluaran terbesar</item>
+        <item>Pengeluaran terkecil</item>
+    </string-array>
+    <string-array name="exporttype">
+        <item>PDF</item>
+        <item>XLSX</item>
+    </string-array>
+</resources>

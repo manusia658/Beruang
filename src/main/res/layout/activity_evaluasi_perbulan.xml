@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EvaluasiPerbulan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Evaluasi bulan ini"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="15sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="10sp"
+            android:textSize="17sp"
+            android:text="Subkategori Yang Sering Dipilih"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10sp"
+            android:layout_height="300sp">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="0dp"
+                android:id="@+id/pemasukan"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pengeluaran"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/banyakcatatan"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15sp"
+            android:textSize="17sp"
+            android:text="Rangkuman 1 Bulan Terakhir\nDengan Catatan Sebanyak: 50"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="10sp"
+            app:cardCornerRadius="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/totalpemasukan"
+                    android:layout_width="match_parent"
+                    android:text="Total Pemasukan Sebesar: \n  Rp.500.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="15sp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/totalpengeluaran"
+                    android:layout_width="match_parent"
+                    android:text="Total Pengeluaran Sebesar: \n  Rp.500.000"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="3sp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="10sp"
+            app:cardCornerRadius="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pemasukanterbesar"
+                    android:layout_width="match_parent"
+                    android:text="Pemasukan Terbesar:\n  Tanggal: 27 November 2024\n  Sebesar: Rp. 560.000\n  Judul: gajian\n  Kategori: Gajian"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="15sp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pengeluaranterbesar"
+                    android:layout_width="match_parent"
+                    android:text="Pengeluaran Terbesar:\n  Tanggal: 31 November 2024\n  Sebesar: Rp. 2.000.000\n  Judul: makan\n  Kategori: Makan"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tekssaran"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_margin="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Anas, salut atas upaya Anda dalam memantau pemasukan dan pengeluaran dengan cermat. Anda telah menunjukkan konsistensi dalam mengendalikan biaya makan dan hiburan, meskipun tinggal di wilayah Jombang di mana opsi hiburan mungkin terbatas. Memulai setiap hari dengan pengeluaran yang terencana adalah langkah hebat menuju pengelolaan keuangan yang lebih baik, terutama ketika Anda merencanakan pembelian besar seperti BMW.\n\nNamun, untuk mencapai target ini, ada beberapa area yang perlu evaluasi lebih lanjut:\n\n1. **Pemasukan vs. Pengeluaran**: Pemasukan dari oke tampak lebih kecil dibandingkan dengan pengeluaran rutin. Pertimbangkan untuk meningkatkan aliran pemasukan, mungkin dengan mencari solusi pendapatan tambahan atau investasi yang menguntungkan.\n\n2. **Bensin dan Hiburan**: Pengeluaran besar untuk bensin dan film dapat dipangkas untuk mengalokasikan lebih banyak tabungan ke reksa dana atau deposito, mempercepat pencapaian target mobil.\n\n3. **Pengawasan Anggaran Harian**: Menggunakan aplikasi keuangan untuk melacak pengeluaran dapat memberi Anda pandangan yang lebih baik dan membantu mengidentifikasi area yang bisa ditekan lebih lanjut.\n\nMenjadwalkan tinjauan keuangan bulanan dan menyesuaikan strategi berdasarkan pola pengeluaran akan mempercepat pencapaian BMW impian Anda. Tetap semangat dan terus kelola keuangan dengan bijak!"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>

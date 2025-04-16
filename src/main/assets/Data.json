@@ -1,0 +1,767 @@
+{
+    "history": [
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "31",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "31",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "31",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "45000",
+        "judul": "",
+        "tanggal": "30",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "30",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "30",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "29",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Pakaian"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "29",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "29",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "28",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Listrik"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "28",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "28",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "27",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "27",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "27",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "26",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Film"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "26",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "40000",
+        "judul": "",
+        "tanggal": "26",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "25",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "25",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "25",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "45000",
+        "judul": "",
+        "tanggal": "24",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "24",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "24",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "23",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Pakaian"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "23",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "23",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "22",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Listrik"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "22",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "22",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "21",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "21",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "21",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "20",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Film"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "20",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "40000",
+        "judul": "",
+        "tanggal": "20",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "19",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "19",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "19",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "45000",
+        "judul": "",
+        "tanggal": "18",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "18",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "18",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "17",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Pakaian"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "17",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "17",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "16",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Listrik"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "16",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "16",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "15",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "15",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "15",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "14",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Film"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "14",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "40000",
+        "judul": "",
+        "tanggal": "14",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "13",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "13",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "13",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "45000",
+        "judul": "",
+        "tanggal": "12",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "12",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "12",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "11",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Pakaian"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "11",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "11",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "10",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Listrik"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "10",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "10",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "09",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "09",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "09",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "08",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Film"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "08",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "40000",
+        "judul": "",
+        "tanggal": "08",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "07",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "07",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "07",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "45000",
+        "judul": "",
+        "tanggal": "06",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "06",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "06",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "05",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Pakaian"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "05",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "05",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "04",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Listrik"
+      },
+      {
+        "jumlah": "40000",
+        "judul": "",
+        "tanggal": "04",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "04",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "70000",
+        "judul": "",
+        "tanggal": "03",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "30000",
+        "judul": "",
+        "tanggal": "03",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Investasi"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "03",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Donasi"
+      },
+      {
+        "jumlah": "90000",
+        "judul": "",
+        "tanggal": "02",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Film"
+      },
+      {
+        "jumlah": "50000",
+        "judul": "",
+        "tanggal": "02",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Bonus"
+      },
+      {
+        "jumlah": "60000",
+        "judul": "",
+        "tanggal": "02",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Pendapatan Sampingan"
+      },
+      {
+        "jumlah": "150000",
+        "judul": "",
+        "tanggal": "01",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Makan"
+      },
+      {
+        "jumlah": "80000",
+        "judul": "",
+        "tanggal": "01",
+        "tipe": "pemasukan",
+        "fulldate": " October 2024",
+        "subkategori": "Bensin"
+      },
+      {
+        "jumlah": "120000",
+        "judul": "",
+        "tanggal": "01",
+        "tipe": "pengeluaran",
+        "fulldate": " October 2024",
+        "subkategori": "Gaji"
+      }
+    ],
+    "RangeSubkategori": [
+      {
+        "pemasukan": {
+          "Makan": 10,
+          "Bensin": 5,
+          "Film": 5,
+          "Listrik": 5,
+          "Pakaian": 5,
+          "Kosmetik": 0
+        },
+        "pengeluaran": {
+          "Gaji": 10,
+          "Bonus": 10,
+          "Pendapatan Sampingan": 5,
+          "Investasi": 5,
+          "Donasi": 5
+        }
+      }
+    ]
+  }

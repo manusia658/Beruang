@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/roundeddialoge"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Tipe File Export"
+        android:id="@+id/box8"
+        android:fontFamily="@font/robotomedium"
+        android:textColor="#1F1F1F"
+        android:layout_marginLeft="15sp"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:id="@+id/box4"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="7sp">
+
+        <AutoCompleteTextView
+            android:id="@+id/typeexport"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bentuk file"
+            android:inputType="none"
+            app:simpleItems="@array/exporttype" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/box3"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Optional"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="#1F1F1F"
+            android:layout_marginLeft="15sp"
+            android:id="@+id/box7"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:layout_alignParentLeft="true"
+            android:id="@+id/daritanggal"
+            android:textSize="18sp"
+            android:fontFamily="@font/robotobold"
+            android:layout_marginLeft="15sp"
+            android:layout_below="@id/box7"
+            android:layout_marginTop="7sp"
+            android:layout_width="wrap_content"
+            android:text="Dari-Sampai tanggal"
+            android:minWidth="27sp"
+            android:minHeight="27sp"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:id="@+id/sorting"
+            android:textSize="18sp"
+            android:minWidth="27sp"
+            android:layout_marginTop="7sp"
+            android:layout_marginRight="15sp"
+            android:minHeight="27sp"
+            android:layout_marginLeft="40sp"
+            android:fontFamily="@font/robotobold"
+            android:layout_below="@id/box7"
+            android:layout_width="wrap_content"
+            android:text="Sorting"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionallayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/sortdate"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:text="Dari Tanggal:"
+                android:layout_marginTop="10sp"
+                android:id="@+id/pickerdari"
+                android:textSize="12sp"
+                android:layout_marginLeft="10sp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"
+                android:layout_marginRight="10sp"
+                android:id="@+id/pickersampai"
+                android:layout_marginLeft="5sp"
+                android:text="Sampai tanggal:"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:visibility="gone"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:id="@+id/sortinglayout"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="7sp">
+
+            <AutoCompleteTextView
+                android:id="@+id/sorttype"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type Sorting"
+                android:inputType="none"
+                app:simpleItems="@array/sorttype" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="7sp"
+        android:layout_marginRight="15sp"
+        android:text="Export"
+        android:textColor="@color/white"
+        android:padding="11sp"
+        android:textSize="17sp"
+        app:icon="@drawable/baseline_save_24"
+        app:iconGravity="textEnd"
+        app:iconSize="20sp"
+        app:iconTint="@color/white" />
+    <Button
+        android:id="@+id/cancell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="7sp"
+        android:padding="11sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="7sp"
+        android:text="Batal"
+        android:textColor="#1F1F1F"
+        android:backgroundTint="#EDEDED"
+        android:textSize="17sp" />
+
+</LinearLayout>
