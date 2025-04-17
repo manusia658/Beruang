@@ -20,4 +20,4 @@
 ---
 
 ## 📱 Demo / Screenshot
-<img src="screenshot/dashboary.png" alt="Dashboard" width="300"/>
+<img src="screenshot/dashboard.png" alt="Dashboard" width="300"/>
