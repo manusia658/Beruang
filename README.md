@@ -20,6 +20,8 @@
 ---
 
 ## 📱 Demo / Screenshot
-<img src="screenshot/dashboard.png" alt="Dashboard" width="250"/>
-<img src="screenshot/Saran.png" alt="Dashboard" width="250"/>
-<img src="screenshot/saranbulan.png" alt="Dashboard" width="250"/>
+<p float="left">
+ <img src="screenshot/dashboard.png" alt="Dashboard" width="250"/>
+ <img src="screenshot/Saran.png" alt="Dashboard" width="250"/>
+ <img src="screenshot/saranbulan.png" alt="Dashboard" width="250"/>
+</p>
